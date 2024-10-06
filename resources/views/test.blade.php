@@ -8,5 +8,6 @@
 </head>
 <body>
     <h1>halaman tes</h1>
+    <h2>halam 2</h2>
 </body>
 </html>
