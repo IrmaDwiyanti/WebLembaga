@@ -5,21 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UIN Sunan Gunung Djati Bandung</title>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <header>
-        <div class="header-container">
-            <div class="contact-info">
-                <span>@uinsgd.official</span>
-                <span>(0221) 7800525</span>
-                <span>info@uinsgd.ac.id</span>
-            </div>
-        </div>
-    </header>
+  <nav class="navbar" style="background-color: #2FAA2F;">
+    
+  </nav>      
+
+    
 
     <section class="hero">
         <h1>LEMBAGA DAN UNIT</h1>

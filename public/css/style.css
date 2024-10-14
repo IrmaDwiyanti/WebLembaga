@@ -10,25 +10,17 @@ body {
   
   
   /* Header */
-  header {
-    background-color: #2FAA2F;
-    color: white;
-    padding: 10px 0;
-  }
-  
-  .header-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .contact-info span {
-    display: inline-block;
-    margin: 0 10px;
-  }
+
+ .navbar {
+  width: 100%;
+  height: 50%;
+
+ }
+
   
   /* Hero */
   .hero {
+    filter: brightness(60%);
     background-image: url('../images/uinsgd.jpg');
     background-size: cover;
     background-position: center;
@@ -40,8 +32,18 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9); 
   }
+
+  .nav {
+    filter: none;
+    position: absolute;
+    top: 0; 
+    right: 0; 
+    margin-right: 20px; 
+    margin-top: 50px; 
+    text-shadow: none;
+}
   
   .hero h1 {
     font-family: 'Roboto', sans-serif;
@@ -121,6 +123,9 @@ body {
     text-align: center;
   }
   
+  #lembaga1 p {
+    color: #333;
+  }
   
   .container {
     display: flex;
@@ -160,36 +165,36 @@ body {
   }
   
   .video-container {
-    position: relative; /* Posisi relatif untuk mengatur posisi latar belakang */
-    width: 960px; /* Lebar video */
-    height: 500px; /* Tinggi video */
-    overflow: visible;
-    
+    position: relative;
+    display: flex; /* Gunakan flexbox */
+    justify-content: center; /* Pusatkan secara horizontal */
+    align-items: center; /* Pusatkan secara vertikal */
+    width: 100%; /* Sesuaikan lebar kontainer dengan 100% dari elemen induk */
+    height: 500px;
+    overflow: hidden;
   }
   
   .background {
-    position: absolute; /* Posisi absolut agar dapat menutupi video */
-    top: -133px; /* Mengatur jarak atas */
-    left: -20px; /* Mengatur jarak kiri */
-    right: -20px; /* Mengatur jarak kanan */
-    bottom: -20px; /* Mengatur jarak bawah */
-    background-image: url('images/bg.png'); /* Ganti dengan URL gambar latar belakang Anda */
+    
+    position: absolute;
+    top: -300px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../images/bg.png');
     background-size: cover;
-    background-position: center center; /* Mengatur posisi gambar di tengah */
-    z-index: 0; /* Mengatur z-index di bawah video */
-    width: 1540px;
+    background-position: center;
+    z-index: -1;
+    width: 100%; /* Sesuaikan dengan lebar container */
     height: 500px;
   }
   
-  iframe {
-    
-    margin: 100px;
-    width: 100%; 
-    height: 100%; 
-    border: none; 
-    z-index: 1; 
+  .video-container iframe {
     position: relative;
-  }
+    z-index: 1; /* Pastikan iframe berada di atas background */
+    width: 560px;
+    height: 315px;
+}
   
   /*bagian berita*/
   
