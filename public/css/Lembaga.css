@@ -4,6 +4,27 @@
     box-sizing: border-box;
 }
 
+.header {
+    width: 100%;
+    background-color: hsla(123, 88%, 35%, 0.766);
+}
+
+.navbar {
+    height: 70px;
+}
+
+.navbar-brand {
+    color: rgb(252, 250, 250) !important;
+}
+
+.nav-link {
+    color: rgb(254, 250, 250) !important;
+}
+
+.nav-link:hover {
+    color: rgb(175, 185, 180) !important;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #93d693;
@@ -113,34 +134,91 @@ main {
     border-radius: 5px;
 }
 
-footer {
-    background-color: #2faa2f;
-    color: white;
-    padding: 20px 0;
+/* Footer */
+.footer {
+    background-color: #4caf50;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px 50px;
     display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    color: white;
+    font-family: sans-serif;
+}
+
+/* Kiri footer */
+.footer-left {
+    flex: 1;
+    text-align: left;
+    padding-right: 40px;
+    border-right: 1px solid white;
+    display: flex;
+    align-items: center;
+}
+
+.footer-left img {
+    width: 120px;
+    vertical-align: middle;
+    margin-left: 30%;
+}
+
+/* Tengah footer */
+.footer-center {
+    flex: 2;
+    text-align: center;
+    padding: 0 40px;
+    border-right: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-center p {
+    margin: 3px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Kanan footer */
+.footer-right {
+    flex: 1;
+    text-align: center;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    width: 100%;
-    padding: 0 20px;
+.footer-about {
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
-.footer-logo img {
-    width: 100px;
-    height: auto;
+.social-icons a {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    line-height: 50px;
+    margin-right: 5px;
+    display: inline-block;
+    color: #ffffff;
+    margin-bottom: 10px;
 }
 
-.footer-info {
-    flex-grow: 1;
-    text-align: center;
+.social-icons a:hover {
+    background-color: rgba(175, 185, 180, 0.7);
+    border-radius: 50%;
 }
 
-.footer-info p {
-    margin: 0;
+.footer-right p {
+    margin: 3px 0;
+    line-height: 1.5;
+    color: white;
+}
+
+.footer-center p.footer-copyright {
+    font-weight: normal;
+    font-size: 14px;
 }
