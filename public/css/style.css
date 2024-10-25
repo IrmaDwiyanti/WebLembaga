@@ -197,8 +197,10 @@ h6 {
 .video-container iframe {
     position: relative;
     z-index: 1; /* Pastikan iframe berada di atas background */
-    width: 560px;
-    height: 315px;
+    width: 700px;
+    height: 400px;
+    margin-left: 22%;
+    margin-top: 100px;
 }
 
 /*bagian berita*/
