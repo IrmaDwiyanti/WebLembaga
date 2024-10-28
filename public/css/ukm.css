@@ -1,0 +1,216 @@
+body {
+    font-family: "Poppin", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d9ead9;
+    color: #ffffff;
+    letter-spacing: 0.03em;
+    line-height: 2.5;
+    padding-top: 60px;
+}
+/* Header */
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    right: 0; 
+    z-index: 1000; 
+}
+.header span {
+    margin-left: 40px;
+}
+.header a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    position: relative;
+    margin-right: 40px;
+}
+
+.header .dropdown {
+    display: inline-block;
+    position: relative; 
+}
+
+.header .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4CAF50; 
+    min-width: 250px;
+    white-space: nowrap;
+    overflow: hidden; 
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+.header .dropdown-content a {
+    color: white; 
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.header .dropdown-content a:hover {
+    background-color: #3e8e41; 
+}
+
+.header .dropdown:hover .dropdown-content {
+    display: block; 
+}
+
+/*ukm content*/
+.containerukm {
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px;
+}
+.headerukm {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-image: url('../images/11.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.header-contentukm {
+    background-color: rgba(226, 246, 230, 0.8);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.headerukm h1 {
+    font-size: 36px;
+    margin: 0 40px 0 0;
+    flex-shrink: 0;
+    white-space: pre-wrap; 
+}
+.headerukm p {
+    font-size: 16px;
+    margin: 0;
+}
+.sub-headerukm {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 14px;
+    color: #000;
+    margin-top: 5%;
+}
+.separator {
+    width: 80%;
+    height: 2px;
+    background-color: #000;
+    margin: 10px auto;
+}
+.ukm-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.ukm-item {
+    background-color: #2FAA2F;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    background-color: #4caf50;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    color: white;
+    font-family: sans-serif;
+}
+
+/* Kiri footer */
+.footer-left {
+    flex: 1;
+    text-align: left;
+    padding-right: 40px;
+    border-right: 1px solid white;
+    display: flex;
+    align-items: center;
+}
+
+.footer-left img {
+    width: 120px;
+    vertical-align: middle;
+    margin-left: 30%;
+}
+
+/* Tengah footer */
+.footer-center {
+    flex: 2;
+    text-align: center;
+    padding: 0 40px;
+    border-right: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-center p {
+    margin: 3px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Kanan footer */
+.footer-right {
+    flex: 1;
+    text-align: center;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-about {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    line-height: 50px;
+    margin-right: 5px;
+    display: inline-block;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.social-icons a:hover {
+    background-color: rgba(175, 185, 180, 0.7);
+    border-radius: 50%;
+}
+
+.footer-right p {
+    margin: 3px 0;
+    line-height: 1.5;
+    color: white;
+}
+
+.footer-center p.footer-copyright {
+    font-weight: normal;
+    font-size: 14px;
+}

@@ -5,136 +5,171 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UIN Sunan Gunung Djati Bandung</title>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Elsie&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-<body> 
-  <section class="header">
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">UIN SGD BANDUNG</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            </ul>
-            <div class="navbar-nav">
-              <a class="nav-link active" href="#Profile">LEMBAGA</a>
-              <a class="nav-item nav-link" href="#About">UNIT</a>
-              <a class="nav-item nav-link" href="#Portfolio">UKM</a>
-              <a class="nav-item nav-link" href="#Contact">PRODI</a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </div>
-  </section>
-</body>
-
-
-    
-
-    <section class="hero">
-        <h1>LEMBAGA DAN UNIT</h1>
-        <h2>UIN SUNAN GUNUNG</h2>
-        <h3>DJATI BANDUNG</h3>
-    </section>
-
-    <section class="profile">
-        <div class="cards-container">
-            <div class="card">
-                <h3>Visi dan Misi</h3>
-                <p>Menjadikan Universitas Islam Negeri yang unggul, kompetitif, dan inovatif berbasis Al-Quran & Al-Hadist. Selalu melakukan pengembangan Ilmu Pengetahuan berbasis Keislaman untuk memberikan kontribusi bagi masyarakat.</p>
-                <a href="#">Learn More</a>
-            </div>
-            <div class="card">
-                <h3>Sejarah</h3>
-                <p>Sejarah berdirinya Universitas Islam Negeri Sunan Gunung Djati Bandung tidak terlepas dari peran para ulama dan tokoh masyarakat. Kampus ini telah berkembang pesat sejak berdirinya di tahun 1968 dan berkomitmen pada pendidikan berbasis Islam.</p>
-                <a href="#">Learn More</a>
-            </div>
-            <div class="card">
-                <h3>Tujuan</h3>
-                <p>Universitas berkomitmen untuk menyiapkan lulusan yang berakhlak mulia, berbasis ilmu, dan inovatif. Dengan misi untuk membangun SDM yang kompeten dalam bidang ilmu pengetahuan, teknologi, dan seni berdasarkan Islam.</p>
-                <a href="#">Learn More</a>
-            </div>
-        </div>
-    </section>
-
-    <section id="lembaga1" class="section-p1">
-        <h2>Lembaga-lembaga</h2>
-        <p>UIN Sunan Gunung Djati Bandung</p>
-
-        <div class="container">
-            <div class="card">
-                <img src="images/lp2m.jpg" alt="Lembaga Penelitian dan Pengabdian Masyarakat">
-                <a href="#">
-                  <div class="label">Lembaga Penelitian dan Pengabdian Masyarakat</div>
-                </a>
-            </div>
-            <div class="card">
-                <img src="images/Perpustakaan.jpg" healt="Lembaga Peminjaman Mutu" height="auto">
-                <div class="label">Lembaga Peminjaman <br> Mutu</div>
-            </div>
-            <div class="card">
-                <img src="images/lab.jpg" alt="Bagian Kerjasama dan Pengembangan Lembaga">
-                <div class="label">Bagian Kerjasama dan Pengembangan Lembaga</div>
-            </div>
-            <div class="card">
-                <img src="images/mahasiswa.jpg" alt="Lembaga Kemahasiswaan dan Alumni">
-                <div class="label">Lembaga Kemahasiswaan dan Alumni</div>
-            </div>
-        </div>
-    </section>
-
-    <div class="video-container">
-      <div class="background"></div>
-      <iframe width="560" height="315" 
-          src="https://www.youtube.com/embed/yprwfSH4h9c?si=tGxRilaSKT-Px30E" 
-          title="YouTube video player" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-          referrerpolicy="strict-origin-when-cross-origin" 
-          allowfullscreen>
-      </iframe>
-  </div>
-
-  <section class="berita-pembaruan">
-    <div class="container-berita">
-      <h2>News & Updates</h2>
-      <div class="grid-berita">
-        <div class="gambar-berita">
-          <img src="images/3.jpeg" alt="Gedung Universitas">
-        </div>
-        <div class="daftar-berita">
-          <div class="item-berita">
-            <span class="tanggal-berita">15 Juni 2024</span>
-            <p>Kegiatan 10 Jurusan dengan UKT Termurah di UIN Bandung untuk Jalur SNBP, SNBT, dan Mandiri</p>
-          </div>
-          <div class="item-berita">
-            <span class="tanggal-berita">26 September 2024</span>
-            <p>Urgensi dan Problematika Moderasi Beragama di Kalangan Milenial</p>
-          </div>
-          <div class="item-berita">
-            <span class="tanggal-berita">20 April 2022</span>
-            <p>Studium Generale Akuntansi Syariah untuk Mahasiswa Baru: Kenali, Pahami, dan Siap Berprofesi</p>
-          </div>
-          <button class="muat-lebih">Muat Lebih Banyak</button>
+  <div class="header">
+    <span>Jam layanan: 07.00 - 16.00</span>
+    <div>
+      <a href="home">HOME</a>
+      <a href="pusat">PUSAT</a>
+      <a href="ukm">UKM</a>
+      <div class="dropdown">
+        <a href="#">FAKULTAS &amp; PRODI</a>
+        <div class="dropdown-content">
+          <a href="https://fah.uinsgd.ac.id/">Adab dan Humaniora</a>
+            <a href="https://fdk.uinsgd.ac.id/">Dakwah dan Komunikasi</a>
+            <a href="https://febi.uinsgd.ac.id/">Ekonomi dan Bisnis Islam</a>
+            <a href="https://fisip.uinsgd.ac.id/">Ilmu Sosial dan Ilmu Politik</a>
+            <a href="https://psi.uinsgd.ac.id/">Psikologi</a>
+            <a href="https://fst.uinsgd.ac.id/">Sains dan Teknologi</a>
+            <a href="https://fsh.uinsgd.ac.id/">Syariah dan Hukum</a>
+            <a href="https://ftk.uinsgd.ac.id/">Tarbiyah dan Keguruan</a>
+            <a href="https://fu.uinsgd.ac.id/">Ushuluddin</a>
         </div>
       </div>
     </div>
+  </div>
+
+  <!--hero-->
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+        <h2>LEMBAGA PENELITIAN DAN</h2>
+        <h2>PENGABDIAN KEPADA</h2>
+        <h2>MASYARAKAT</h2>
+    </div>
   </section>
-  
+
+  <!--profile-->
+  <div class="container">
+    <div class="section">
+      <div class="card green-card">
+        <div class="card-icon">
+          <i class="fas fa-bullseye"></i>
+        </div>
+        <h3>VISI MISI &amp; TUJUAN</h3>
+        <p>"Penguatan Penelitian dan Pengabdian kepada Masyarakat" Mengelola lembaga secara profesional, transparan, dan akuntabel,
+            Mengelola penelitian dengan memperhatikan peningkatan mutu, perluasan diversifikasi pendekatan, dan penguatan signifikasi sosial hasil penelitian,
+            Mengelola pengabdian kepada masyarakat berbasis kompetensi, tematik, lintas sektoral, dan interdisipliner</p>
+            <a href="#">Learn More</a>
+      </div>
+      <div class="card blue-card">
+        <div class="card-icon">
+          <i class="fas fa-book"></i>
+        </div>
+        <h3>SEJARAH</h3>
+        <p>LP2M didirikan berdasarkan Peraturan Menteri Agama Republik Indonesia Nomor 7 Tahun 2013 Tentang Organisasi dan Tata Kerja (Ortaker) Universitas Islam Negeri (UIN) Sunan Gunung Djati (SGD) Bandung.Struktur LP2M terbagi menjadi tiga komponen, yaitu: Pusat Penelitian danPenerbitan; Pusat Pengabdian kepada Masyarakat; dan Pusat StudiGender dan Anak. Sebelum terhimpun dalam struktur LP2M, </p>
+        <a href="#">Learn More</a>
+      </div>
+      <div class="card green-card">
+        <div class="card-icon">
+          <i class="fas fa-sitemap"></i>
+        </div>
+        <h3>STRUKTUR</h3>
+        <p>Pimpinan : Ketua Lembaga Penelitian dan Pengabdian Masyarakat (LP2M), Sekretaris LP2M, Kepala Pusat Pengabdian Kepada Masyarakat, Kepala Pusat Penelitian dan Penerbitan, Kepala Pusat Gender dan Anak. Tata usaha: Analis Keuangan LP2M, PRANATA KEUANGAN APBN PENYELIA TATA USAHA LP2M, OPERATOR LP2M, STAF HUMAS LP2M, STAF PKM LP2M, STAF PUSLITPEN LP2M, STAF ARSIPARIS LP2M, STAF PERENCANAAN LP2M</p>
+        <a href="#">Learn More</a>
+      </div>
+  </div>
+  <!--end profile-->
+
+  <!--pusat-->
+  <div class="pusat-section">
+    <h2>Pusat -Pusat</h2>
+    <div class="pusat-cards">
+      <div class="pusat-card">
+       <img alt="Classroom with empty chairs and desks" src="https://storage.googleapis.com/a1aa/image/q1P43vupUnbJJZEyJEnJ0UlRec1LoXA9k3cIttC84tfAyNoTA.jpg" style="height: 200px; width: 240px; object-fit: cover;"/>
+       <h3>PUSLITPEN</h3>
+       <p>Pusat Penelitian dan Penerbitan</p>
+      </div>
+      <div class="pusat-card">
+        <img alt="Library center with bookshelves" src="https://storage.googleapis.com/a1aa/image/ablq5og3Uno9GVlrjrgzvHWYLf7OAy7nVtAt4YLlf8cCyNoTA.jpg" style="height: 200px; width: 240px; object-fit: cover;"/>
+        <h3>PKM</h3>
+        <p>Pusat Pengabdian Kepada Masyarakat</p>
+      </div>
+       <div class="pusat-card">
+        <img alt="Computer lab with multiple monitors" src="https://storage.googleapis.com/a1aa/image/HcIACeAcKAW1JqquTCM7MDYc6ke9qgH1FMv0MR40LiqfjbQnA.jpg" style="height: 200px; width: 240px; object-fit: cover;"/>
+        <h3>PGSA</h3>
+        <p>Pusat Studi Gender dan Anak</p>
+       </div>
+      </div>
+    </div>
+ </div>
+<!--end pusat-->
+
+<!--berita-->
+<div class="containernews">
+  <div class="sectionnews">
+   <h2>Campus Video</h2>
+   <hr/>
+   <div class="video-container">
+    <div class="video-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/yprwfSH4h9c?si=u7luHMHU-PykvPo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   </div>
+   </div>
+  </div>
+  <div class="sectionnews">
+   <h2>Berita Terbaru</h2>
+   <hr/>
+   <div class="news-item">
+    <img alt="Image UIN" height="80" src="/images/berita1.png" width="80"/>
+    <div>
+     <div class="date">
+      16/10/2024
+     </div>
+     <div class="title">
+      Diseminasi Isu-isu Gender melalui Konferensi PSGA ke-3 dan Peran Strategis PSGA di PTKI     </div>
+    </div>
+   </div>
+   <div class="news-item">
+    <img alt="UIN" height="80" src="/images/berita2.png" width="80"/>
+    <div>
+     <div class="date">
+      17/09/2024
+     </div>
+     <div class="title">
+      Workshop Kurikulum Berperspektif Gender PSGA LP2M UIN SGD Bandung</div>
+    </div>
+   </div>
+   <div class="news-item">
+    <img alt="UIN" height="80" src="/images/berita3.png" width="80"/>
+    <div>
+     <div class="date">
+      06/09/2024
+     </div>
+     <div class="title">
+      Desa Cikuya - Menjaga Tradisi, Membangun Masa Depan     </div>
+    </div>
+   </div>
+   <div class="news-item">
+    <img alt="Image of UIN campus" height="80" src="/images/berita4.png" width="80"/>
+    <div>
+     <div class="date">
+      16/08/2024
+     </div>
+     <div class="title">
+      Sosialisasi ke masyarakat, Peserta KKN-MB Desa Babakanmulya Gelar Kegiatan Rembuk Warga     </div>
+    </div>
+   </div>
+   <a class="read-more" href="#">
+    Berita Selengkapnya
+    <i class="fas fa-arrow-right">
+    </i>
+   </a>
+  </div>
+ </div>
+
+  <!--footer-->
   <footer class="footer">
         <div class="footer-left">
             <img src="images/logo.png" alt="Logo UIN">
         </div>
-      
+
         <div class="footer-center">
             <p>Jl. A.H. Nasution No. 105, <br> Cibiru, Bandung 40614</p>
             <p class="footer-copyright">&copy; 2024 - UIN SGD Bandung</p>
@@ -148,17 +183,13 @@
                 <a href="#"><i class="fab fa-twitter"></i></a>
                 <a href="#"><i class="fab fa-youtube"></i></a>
             </div>
-            <p>Email: <a>info@uinsgd.ac.id</a></p>
+            <p>Email: <a>lp2m@uinsgd.ac.id</a></p>
             <p>(022)7800525</p>
         </div>
     </footer>
-
 </body>
 </html>
-  
-
 </body>
 </html>
-
 </body>
 </html>
