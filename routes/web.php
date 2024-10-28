@@ -13,3 +13,23 @@ Route::get('/home', function () {
 Route::get('/Lembaga', function () {
     return view('Lembaga');
 });
+
+Route::get('/index', function () {
+    return view('index');
+});
+
+Route::get('/sejarah', function () {
+    return view('sejarah');
+});
+
+Route::get('/struktur', function () {
+    return view('struktur');
+});
+
+Route::get('/berita', function () {
+    return view('berita');
+});
+
+Route::get('/profile', function () {
+    return view('profile');
+});
