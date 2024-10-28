@@ -10,19 +10,67 @@ body {
     background-color: rgba(47, 170, 47, 0.13);
 }
 
-footer {
-    background-color: #2faa2f;
-}
-
 .rows {
     display: flex;
     flex-wrap: wrap;
 }
 
-.navbar {
+/* Header */
+.header {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding-right: 1%;
-    padding-bottom: 4cap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.header span {
+    margin-left: 40px;
+}
+.header a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    position: relative;
+    margin-right: 40px;
+}
+
+.header .dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.header .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4caf50;
+    min-width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.header .dropdown-content a:hover {
+    background-color: #3e8e41;
+}
+
+.header .dropdown:hover .dropdown-content {
+    display: block;
 }
 
 .crowd-background {
@@ -38,4 +86,93 @@ footer {
     align-items: center;
     text-align: center;
     color: white;
+}
+
+/* Footer */
+.footer {
+    background-color: #4caf50;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    color: white;
+    font-family: sans-serif;
+}
+
+/* Kiri footer */
+.footer-left {
+    flex: 1;
+    text-align: left;
+    padding-right: 40px;
+    border-right: 1px solid white;
+    display: flex;
+    align-items: center;
+}
+
+.footer-left img {
+    width: 120px;
+    vertical-align: middle;
+    margin-left: 30%;
+}
+
+/* Tengah footer */
+.footer-center {
+    flex: 2;
+    text-align: center;
+    padding: 0 40px;
+    border-right: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-center p {
+    margin: 3px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Kanan footer */
+.footer-right {
+    flex: 1;
+    text-align: center;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-about {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    line-height: 50px;
+    margin-right: 5px;
+    display: inline-block;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.social-icons a:hover {
+    background-color: rgba(175, 185, 180, 0.7);
+    border-radius: 50%;
+}
+
+.footer-right p {
+    margin: 3px 0;
+    line-height: 1.5;
+    color: white;
+}
+
+.footer-center p.footer-copyright {
+    font-weight: normal;
+    font-size: 14px;
 }

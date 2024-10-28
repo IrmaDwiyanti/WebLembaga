@@ -57,7 +57,7 @@
         <p>"Penguatan Penelitian dan Pengabdian kepada Masyarakat" Mengelola lembaga secara profesional, transparan, dan akuntabel,
             Mengelola penelitian dengan memperhatikan peningkatan mutu, perluasan diversifikasi pendekatan, dan penguatan signifikasi sosial hasil penelitian,
             Mengelola pengabdian kepada masyarakat berbasis kompetensi, tematik, lintas sektoral, dan interdisipliner</p>
-            <a href="#">Learn More</a>
+            <a href="index">Learn More</a>
       </div>
       <div class="card blue-card">
         <div class="card-icon">
@@ -65,7 +65,7 @@
         </div>
         <h3>SEJARAH</h3>
         <p>LP2M didirikan berdasarkan Peraturan Menteri Agama Republik Indonesia Nomor 7 Tahun 2013 Tentang Organisasi dan Tata Kerja (Ortaker) Universitas Islam Negeri (UIN) Sunan Gunung Djati (SGD) Bandung.Struktur LP2M terbagi menjadi tiga komponen, yaitu: Pusat Penelitian danPenerbitan; Pusat Pengabdian kepada Masyarakat; dan Pusat StudiGender dan Anak. Sebelum terhimpun dalam struktur LP2M, </p>
-        <a href="#">Learn More</a>
+        <a href="sejarah">Learn More</a>
       </div>
       <div class="card green-card">
         <div class="card-icon">
@@ -73,7 +73,7 @@
         </div>
         <h3>STRUKTUR</h3>
         <p>Pimpinan : Ketua Lembaga Penelitian dan Pengabdian Masyarakat (LP2M), Sekretaris LP2M, Kepala Pusat Pengabdian Kepada Masyarakat, Kepala Pusat Penelitian dan Penerbitan, Kepala Pusat Gender dan Anak. Tata usaha: Analis Keuangan LP2M, PRANATA KEUANGAN APBN PENYELIA TATA USAHA LP2M, OPERATOR LP2M, STAF HUMAS LP2M, STAF PKM LP2M, STAF PUSLITPEN LP2M, STAF ARSIPARIS LP2M, STAF PERENCANAAN LP2M</p>
-        <a href="#">Learn More</a>
+        <a href="struktur">Learn More</a>
       </div>
   </div>
   <!--end profile-->
@@ -156,7 +156,7 @@
       Sosialisasi ke masyarakat, Peserta KKN-MB Desa Babakanmulya Gelar Kegiatan Rembuk Warga     </div>
     </div>
    </div>
-   <a class="read-more" href="#">
+   <a class="read-more" href="berita">
     Berita Selengkapnya
     <i class="fas fa-arrow-right">
     </i>
