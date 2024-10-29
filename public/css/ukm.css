@@ -8,22 +8,24 @@ body {
     line-height: 2.5;
     padding-top: 60px;
 }
+
 /* Header */
 .header {
-    background-color: #4CAF50;
+    background-color: #2faa2f;
     color: white;
-    padding: 10px 0;
+    padding: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed; 
-    top: 0; 
+    position: fixed;
+    top: 0;
     left: 0;
-    right: 0; 
-    z-index: 1000; 
+    right: 0;
+    z-index: 1000;
 }
 .header span {
     margin-left: 40px;
+    font-size: 13px;
 }
 .header a {
     color: white;
@@ -31,46 +33,48 @@ body {
     text-decoration: none;
     position: relative;
     margin-right: 40px;
+    font-size: 13px;
 }
 
 .header .dropdown {
     display: inline-block;
-    position: relative; 
+    position: relative;
 }
 
 .header .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #4CAF50; 
+    background-color: #4caf50;
     min-width: 250px;
     white-space: nowrap;
-    overflow: hidden; 
+    overflow: hidden;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    left: 50%; 
-    transform: translateX(-50%); 
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .header .dropdown-content a {
-    color: white; 
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 
 .header .dropdown-content a:hover {
-    background-color: #3e8e41; 
+    background-color: #3e8e41;
 }
 
 .header .dropdown:hover .dropdown-content {
-    display: block; 
+    display: block;
 }
 
 /*ukm content*/
 .containerukm {
     width: 90%;
     margin: 0 auto;
-    padding: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 .headerukm {
     display: flex;
@@ -122,44 +126,45 @@ body {
     background-color: #2FAA2F;
     padding: 10px 20px;
     border-radius: 20px;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
 }
 
 /* Footer */
 .footer {
-    background-color: #4caf50;
+    background-color: #2faa2f;
     box-sizing: border-box;
     width: 100%;
-    padding: 20px 50px;
+    padding: 8px 20px; 
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     color: white;
     font-family: sans-serif;
+    font-size: 8px; 
 }
 
 /* Kiri footer */
 .footer-left {
     flex: 1;
     text-align: left;
-    padding-right: 40px;
+    padding-right: 20px; 
     border-right: 1px solid white;
     display: flex;
     align-items: center;
 }
 
 .footer-left img {
-    width: 120px;
+    width: 65px; 
     vertical-align: middle;
-    margin-left: 30%;
+    margin-left: 5.5rem; 
 }
 
 /* Tengah footer */
 .footer-center {
     flex: 2;
     text-align: center;
-    padding: 0 40px;
+    padding: 0 20px; 
     border-right: 1px solid white;
     display: flex;
     flex-direction: column;
@@ -167,8 +172,8 @@ body {
 }
 
 .footer-center p {
-    margin: 3px 0;
-    font-size: 18px;
+    margin: 2px 0;
+    font-size: 12px; 
     font-weight: bold;
 }
 
@@ -176,7 +181,7 @@ body {
 .footer-right {
     flex: 1;
     text-align: center;
-    padding-left: 40px;
+    padding-left: 20px; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -184,33 +189,74 @@ body {
 }
 
 .footer-about {
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 16px; 
+    margin-bottom: 5px;
 }
 
 .social-icons a {
-    width: 50px;
-    height: 50px;
-    font-size: 24px;
-    line-height: 50px;
+    width: 35px; 
+    height: 35px; 
+    font-size: 18px; 
+    line-height: 35px; 
     margin-right: 5px;
     display: inline-block;
     color: #ffffff;
-    margin-bottom: 10px;
-}
-
-.social-icons a:hover {
-    background-color: rgba(175, 185, 180, 0.7);
-    border-radius: 50%;
+    margin-bottom: 5px;
 }
 
 .footer-right p {
-    margin: 3px 0;
-    line-height: 1.5;
+    margin: 2px 0;
+    line-height: 1.2;
     color: white;
 }
 
 .footer-center p.footer-copyright {
     font-weight: normal;
-    font-size: 14px;
+    font-size: 12px; 
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+
+    .section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .pusat-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pusat-card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .containernews {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sectionnews {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-left, .footer-center, .footer-right {
+        width: 100%;
+        text-align: center;
+    }
 }

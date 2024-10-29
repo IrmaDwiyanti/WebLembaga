@@ -1,66 +1,157 @@
-header {
-    background-color: #2faa2f;
-}
-
-a {
-    text-decoration: none;
-}
-
 body {
-    background-color: rgba(47, 170, 47, 0.13);
+    font-family: "Poppin", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d9ead9;
+    color: #ffffff;
+    letter-spacing: 0.03em;
+    line-height: 2.5;
+    padding-top: 60px;
 }
 
-.rows {
+/* Header */
+.header {
+    background-color: #2faa2f;
+    color: white;
+    padding: 5px;
     display: flex;
-    flex-wrap: wrap;
-}
-
-.navbar {
+    justify-content: space-between;
     align-items: center;
-    padding-right: 1%;
-    padding-bottom: 4cap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.header span {
+    margin-left: 40px;
+    font-size: 13px;
+}
+.header a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    position: relative;
+    margin-right: 40px;
+    font-size: 13px;
 }
 
-.crowd-background {
-    background-image: url(../assets/image/Crowd.png);
-    background-repeat: no-repeat;
-    min-height: 384px;
+.header .dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.header .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4caf50;
+    min-width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.header .dropdown-content a:hover {
+    background-color: #3e8e41;
+}
+
+.header .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.content {
+    position: relative;
+    height: 300px;
+    background-image: url("../images/11.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(120, 120, 120, 0.5); 
+}
+
+.text h1 {
+    position: relative;
+    z-index: 2;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.description {
+    margin-top: 20%;
+    background-color: rgba(47, 170, 47, 0.3); /* Hijau dengan opacity 30% */
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.description p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333;
+    text-align: justify;
 }
 
 /* Footer */
 .footer {
-    background-color: #4caf50;
+    background-color: #2faa2f;
     box-sizing: border-box;
     width: 100%;
-    padding: 20px 50px;
+    padding: 8px 20px; 
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     color: white;
     font-family: sans-serif;
+    font-size: 8px; 
 }
 
 /* Kiri footer */
 .footer-left {
     flex: 1;
     text-align: left;
-    padding-right: 40px;
+    padding-right: 20px; 
     border-right: 1px solid white;
     display: flex;
     align-items: center;
 }
 
 .footer-left img {
-    width: 120px;
+    width: 65px; 
     vertical-align: middle;
-    margin-left: 30%;
+    margin-left: 5.5rem; 
 }
 
 /* Tengah footer */
 .footer-center {
     flex: 2;
     text-align: center;
-    padding: 0 40px;
+    padding: 0 20px; 
     border-right: 1px solid white;
     display: flex;
     flex-direction: column;
@@ -68,8 +159,8 @@ body {
 }
 
 .footer-center p {
-    margin: 3px 0;
-    font-size: 18px;
+    margin: 2px 0;
+    font-size: 12px; 
     font-weight: bold;
 }
 
@@ -77,7 +168,7 @@ body {
 .footer-right {
     flex: 1;
     text-align: center;
-    padding-left: 40px;
+    padding-left: 20px; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -85,33 +176,28 @@ body {
 }
 
 .footer-about {
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 16px; 
+    margin-bottom: 5px;
 }
 
 .social-icons a {
-    width: 50px;
-    height: 50px;
-    font-size: 24px;
-    line-height: 50px;
+    width: 35px; 
+    height: 35px; 
+    font-size: 18px; 
+    line-height: 35px; 
     margin-right: 5px;
     display: inline-block;
     color: #ffffff;
-    margin-bottom: 10px;
-}
-
-.social-icons a:hover {
-    background-color: rgba(175, 185, 180, 0.7);
-    border-radius: 50%;
+    margin-bottom: 5px;
 }
 
 .footer-right p {
-    margin: 3px 0;
-    line-height: 1.5;
+    margin: 2px 0;
+    line-height: 1.2;
     color: white;
 }
 
 .footer-center p.footer-copyright {
     font-weight: normal;
-    font-size: 14px;
+    font-size: 12px; 
 }

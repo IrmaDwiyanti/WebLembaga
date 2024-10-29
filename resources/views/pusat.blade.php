@@ -7,9 +7,9 @@
     <title>Pusat-Pusat</title>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Elsie&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="css/pusat.css">
+    
 </head>
 <body>
     <!--header-->
@@ -179,5 +179,13 @@
             <p>(022)7800525</p>
         </div>
     </footer>
+
+    <script>
+        document.getElementById("navbar-toggle").onclick = function() {
+            var menu = document.getElementById("navbar-menu");
+            menu.classList.toggle("active");
+        };
+    </script>
+    
 </body>
 </html>

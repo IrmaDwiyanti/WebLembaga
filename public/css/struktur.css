@@ -1,25 +1,19 @@
-header {
-    background-color: #2faa2f;
-}
-
-a {
-    text-decoration: none;
-}
-
 body {
-    background-color: rgba(47, 170, 47, 0.13);
-}
-
-.rows {
-    display: flex;
-    flex-wrap: wrap;
+    font-family: "Poppin", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d9ead9;
+    color: #ffffff;
+    letter-spacing: 0.03em;
+    line-height: 2.5;
+    padding-top: 60px;
 }
 
 /* Header */
 .header {
-    background-color: #4caf50;
+    background-color: #2faa2f;
     color: white;
-    padding: 10px 0;
+    padding: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,6 +25,7 @@ body {
 }
 .header span {
     margin-left: 40px;
+    font-size: 13px;
 }
 .header a {
     color: white;
@@ -38,6 +33,7 @@ body {
     text-decoration: none;
     position: relative;
     margin-right: 40px;
+    font-size: 13px;
 }
 
 .header .dropdown {
@@ -73,55 +69,102 @@ body {
     display: block;
 }
 
-.crowd-background {
-    background-image: url(../assets/image/Crowd.png);
-    background-repeat: no-repeat;
-    min-height: 384px;
+/* Main Content */
+.title-section {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    color: #2faa2f;
+    margin-top: 20px;
 }
 
-.footer-text {
+.name {
     display: flex;
-    height: 100%;
-    justify-content: center;
     align-items: center;
-    text-align: center;
-    color: white;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px; 
+    width: 100%; 
+}
+
+.name img {
+    width: 100px;
+    height: 120px;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.name-info h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    color: #2faa2f;
+}
+
+.name-info p {
+    margin: 5px 0 0 0;
+    color: #333;
+}
+
+.links {
+    margin-left: 250px;
+}
+
+.links h5 {
+    color: #333;
+}
+.links a {
+    font-size: 16px;
+    color: #2faa2f;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+    margin-bottom: 20px;
+}
+
+.links a:hover {
+    text-decoration: underline;
 }
 
 /* Footer */
 .footer {
-    background-color: #4caf50;
+    background-color: #2faa2f;
     box-sizing: border-box;
     width: 100%;
-    padding: 20px 50px;
+    padding: 8px 20px; 
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     color: white;
     font-family: sans-serif;
+    font-size: 8px; 
 }
 
 /* Kiri footer */
 .footer-left {
     flex: 1;
     text-align: left;
-    padding-right: 40px;
+    padding-right: 20px; 
     border-right: 1px solid white;
     display: flex;
     align-items: center;
 }
 
 .footer-left img {
-    width: 120px;
+    width: 65px; 
     vertical-align: middle;
-    margin-left: 30%;
+    margin-left: 5.5rem; 
 }
 
 /* Tengah footer */
 .footer-center {
     flex: 2;
     text-align: center;
-    padding: 0 40px;
+    padding: 0 20px; 
     border-right: 1px solid white;
     display: flex;
     flex-direction: column;
@@ -129,8 +172,8 @@ body {
 }
 
 .footer-center p {
-    margin: 3px 0;
-    font-size: 18px;
+    margin: 2px 0;
+    font-size: 12px; 
     font-weight: bold;
 }
 
@@ -138,7 +181,7 @@ body {
 .footer-right {
     flex: 1;
     text-align: center;
-    padding-left: 40px;
+    padding-left: 20px; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -146,33 +189,28 @@ body {
 }
 
 .footer-about {
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 16px; 
+    margin-bottom: 5px;
 }
 
 .social-icons a {
-    width: 50px;
-    height: 50px;
-    font-size: 24px;
-    line-height: 50px;
+    width: 35px; 
+    height: 35px; 
+    font-size: 18px; 
+    line-height: 35px; 
     margin-right: 5px;
     display: inline-block;
     color: #ffffff;
-    margin-bottom: 10px;
-}
-
-.social-icons a:hover {
-    background-color: rgba(175, 185, 180, 0.7);
-    border-radius: 50%;
+    margin-bottom: 5px;
 }
 
 .footer-right p {
-    margin: 3px 0;
-    line-height: 1.5;
+    margin: 2px 0;
+    line-height: 1.2;
     color: white;
 }
 
 .footer-center p.footer-copyright {
     font-weight: normal;
-    font-size: 14px;
+    font-size: 12px; 
 }

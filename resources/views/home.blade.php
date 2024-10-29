@@ -6,7 +6,6 @@
     <title>UIN Sunan Gunung Djati Bandung</title>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Elsie&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     
@@ -57,7 +56,7 @@
         <p>"Penguatan Penelitian dan Pengabdian kepada Masyarakat" Mengelola lembaga secara profesional, transparan, dan akuntabel,
             Mengelola penelitian dengan memperhatikan peningkatan mutu, perluasan diversifikasi pendekatan, dan penguatan signifikasi sosial hasil penelitian,
             Mengelola pengabdian kepada masyarakat berbasis kompetensi, tematik, lintas sektoral, dan interdisipliner</p>
-            <a href="index">Learn More</a>
+            <a href="visimisi">Learn More</a>
       </div>
       <div class="card blue-card">
         <div class="card-icon">
@@ -81,22 +80,30 @@
   <!--pusat-->
   <div class="pusat-section">
     <h2>Pusat -Pusat</h2>
-    <div class="pusat-cards">
+    <a href="puslitpen">
+      <div class="pusat-cards">
       <div class="pusat-card">
        <img alt="Classroom with empty chairs and desks" src="https://storage.googleapis.com/a1aa/image/q1P43vupUnbJJZEyJEnJ0UlRec1LoXA9k3cIttC84tfAyNoTA.jpg" style="height: 200px; width: 240px; object-fit: cover;"/>
        <h3>PUSLITPEN</h3>
        <p>Pusat Penelitian dan Penerbitan</p>
       </div>
+    </a>
+    
+    <a href="pkm">
       <div class="pusat-card">
         <img alt="Library center with bookshelves" src="https://storage.googleapis.com/a1aa/image/ablq5og3Uno9GVlrjrgzvHWYLf7OAy7nVtAt4YLlf8cCyNoTA.jpg" style="height: 200px; width: 240px; object-fit: cover;"/>
         <h3>PKM</h3>
         <p>Pusat Pengabdian Kepada Masyarakat</p>
       </div>
-       <div class="pusat-card">
+    </a>
+      
+    <a href="pgsa">
+      <div class="pusat-card">
         <img alt="Computer lab with multiple monitors" src="https://storage.googleapis.com/a1aa/image/HcIACeAcKAW1JqquTCM7MDYc6ke9qgH1FMv0MR40LiqfjbQnA.jpg" style="height: 200px; width: 240px; object-fit: cover;"/>
         <h3>PGSA</h3>
         <p>Pusat Studi Gender dan Anak</p>
        </div>
+    </a>
       </div>
     </div>
  </div>
@@ -116,8 +123,9 @@
   <div class="sectionnews">
    <h2>Berita Terbaru</h2>
    <hr/>
-   <div class="news-item">
-    <img alt="Image UIN" height="80" src="/images/berita1.png" width="80"/>
+   <a href="berita">
+    <div class="news-item">
+    <img alt="Image UIN" height="80" src="/images/berita1.png"/>
     <div>
      <div class="date">
       16/10/2024
@@ -126,8 +134,11 @@
       Diseminasi Isu-isu Gender melalui Konferensi PSGA ke-3 dan Peran Strategis PSGA di PTKI     </div>
     </div>
    </div>
-   <div class="news-item">
-    <img alt="UIN" height="80" src="/images/berita2.png" width="80"/>
+   </a>
+
+   <a href="berita">
+    <div class="news-item">
+    <img alt="UIN" height="80" src="/images/berita2.png"/>
     <div>
      <div class="date">
       17/09/2024
@@ -136,27 +147,35 @@
       Workshop Kurikulum Berperspektif Gender PSGA LP2M UIN SGD Bandung</div>
     </div>
    </div>
-   <div class="news-item">
-    <img alt="UIN" height="80" src="/images/berita3.png" width="80"/>
+   </a>
+   
+   <a href="berita">
+     <div class="news-item">
+    <img alt="UIN" height="80" src="/images/berita3.png" />
     <div>
      <div class="date">
       06/09/2024
      </div>
      <div class="title">
-      Desa Cikuya - Menjaga Tradisi, Membangun Masa Depan     </div>
+      Desa Cikuya - Menjaga Tradisi, Membangun Masa Depan</div>
     </div>
    </div>
-   <div class="news-item">
-    <img alt="Image of UIN campus" height="80" src="/images/berita4.png" width="80"/>
+   </a>
+  
+   <a href="berita">
+    <div class="news-item">
+    <img alt="Image of UIN campus" height="80" src="/images/berita4.png" />
     <div>
      <div class="date">
       16/08/2024
      </div>
      <div class="title">
-      Sosialisasi ke masyarakat, Peserta KKN-MB Desa Babakanmulya Gelar Kegiatan Rembuk Warga     </div>
+      Sosialisasi ke masyarakat, Peserta KKN-MB Desa Babakanmulya Gelar Kegiatan Rembuk Warga</div>
     </div>
    </div>
-   <a class="read-more" href="berita">
+   </a>
+   
+   <a class="read-more" href="beritahome">
     Berita Selengkapnya
     <i class="fas fa-arrow-right">
     </i>
@@ -187,9 +206,5 @@
             <p>(022)7800525</p>
         </div>
     </footer>
-</body>
-</html>
-</body>
-</html>
 </body>
 </html>

@@ -11,9 +11,9 @@ body {
 
 /* Header */
 .header {
-    background-color: #4caf50;
+    background-color: #2faa2f;
     color: white;
-    padding: 10px 0;
+    padding: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,6 +25,7 @@ body {
 }
 .header span {
     margin-left: 40px;
+    font-size: 13px;
 }
 .header a {
     color: white;
@@ -32,6 +33,7 @@ body {
     text-decoration: none;
     position: relative;
     margin-right: 40px;
+    font-size: 13px;
 }
 
 .header .dropdown {
@@ -70,7 +72,8 @@ body {
 /* hero*/
 .hero {
     position: relative;
-    background-image: url("../images/uinsgd.jpg");
+    margin-top: -1rem;
+    background-image: url("../images/image.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -96,22 +99,24 @@ body {
 .hero-content {
     position: relative;
     z-index: 2;
+    margin-top: -100px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
 .hero h2 {
     font-family: "Elsie", sans-serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 300;
     color: white;
-    margin: -10px 0 10px 0;
+    margin: 0; 
+    padding: 0;
     line-height: 1.2;
 }
 /*end hero*/
 
 /*container real */
 .container {
-    width: 100%;
+    width: 70%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
@@ -119,27 +124,33 @@ body {
 }
 .section {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
+    justify-content: center;
+    margin-bottom: 10px;
+    gap: 1.5rem;
 }
 .card {
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    width: 30%;
+    padding: 15px;
+    width: 360px;
+    height: 340px;
     box-sizing: border-box;
     position: relative;
     z-index: 1;
+    margin-top: 12px;
 }
 .card h3 {
-    margin-top: 0;
+    margin-top: -1rem;
     color: #fff;
+    font-size: 20px;
 }
 
 .blue-card h3 {
-    margin-top: 0;
+    margin-top: -1rem;
     color: black;
+    /* ganti */
+    font-size: 20px;
 }
 
 .blue-card p {
@@ -148,9 +159,10 @@ body {
 }
 .card p {
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 11px;
     line-height: 1.6;
     text-align: justify;
+    overflow: visible;
 }
 .card a {
     display: inline-block;
@@ -163,8 +175,9 @@ body {
     text-decoration: underline;
 }
 .card-icon {
-    font-size: 24px;
+    font-size: 18px;
     margin-bottom: 10px;
+    margin-top: -1rem;
 }
 .green-card {
     background-color: #7fc37f;
@@ -184,47 +197,6 @@ body {
     color: black;
 }
 
-.pusat-section {
-    background-color: #c8e6c9;
-    padding: 20px;
-}
-.pusat-section h2 {
-    margin-top: 0;
-}
-.pusat-section p {
-    font-size: 16px;
-}
-.pusat-cards {
-    display: flex;
-    justify-content: space-between;
-}
-.pusat-card {
-    background-color: #8bc34a;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 30%;
-    box-sizing: border-box;
-    text-align: center;
-    color: #ffffff;
-}
-.pusat-card img {
-    width: 100%;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-}
-.pusat-card h3 {
-    margin: 10px 0;
-}
-.pusat-card p {
-    margin: 0 0 10px;
-}
-.arrow {
-    font-size: 24px;
-    color: #000000;
-    text-align: center;
-    line-height: 100px;
-}
-
 /*pusat*/
 .pusat-section {
     background: linear-gradient(135deg, #f0f0f0 20%, #7fc37f 100%);
@@ -233,18 +205,25 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
     position: relative;
-    width: calc(100% + 200px); /* Menambah lebar melebihi layar */
-    left: -100px;
+    width: calc(100% + 200px); 
     box-sizing: border-box;
     margin-top: 5%;
+    justify-content: center;  
+    margin-left: -100px; 
 }
+
+.pusat-section a {
+        text-decoration: none; 
+        color: inherit; 
+}
+
 .pusat-section h2 {
     margin-top: 0;
-    font-size: 28px;
+    font-size: 30px;
     color: #333333;
     position: absolute;
     top: 50%;
-    left: 20px;
+    left: 10px;
     transform: translateY(-50%);
     padding-bottom: 10px;
     margin-left: 20px;
@@ -267,7 +246,8 @@ body {
     background-color: #4caf50;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 240px;
+    width: 200px;
+    height: 280px;
     box-sizing: border-box;
     text-align: center;
     overflow: hidden;
@@ -279,18 +259,18 @@ body {
     transform: translateY(-10px);
 }
 .pusat-card img {
-    width: 100%;
-    height: 200px;
     object-fit: cover;
+    max-width: 100%;
+    height: auto;
 }
 .pusat-card h3 {
     margin: 10px 0;
-    font-size: 20px;
+    font-size: 16px;
     color: #ffffff;
 }
 .pusat-card p {
     margin: 0 0 10px;
-    font-size: 16px;
+    font-size: 12px;
     color: #ffffff;
     line-height: 1.2;
 }
@@ -302,12 +282,17 @@ body {
     padding: 20px;
     margin-top: 5%;
     margin-left: 2%;
+    margin-right: 2%;
 }
 .sectionnews {
     width: 48%;
 }
+ 
+.sectionnews a {
+    text-decoration: none;
+}
 .sectionnews h2 {
-    font-size: 24px;
+    font-size: 20px;
     color: #2c2c6c;
     margin-bottom: 10px;
 }
@@ -337,23 +322,25 @@ body {
     margin-bottom: 20px;
 }
 .news-item img {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     object-fit: cover;
     margin-right: 10px;
+    border-radius: 10px;
 }
 .news-item .date {
     font-size: 12px;
     color: #b0b0b0;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 .news-item .title {
-    font-size: 16px;
+    font-size: 13px;
     color: #000;
     margin: 0;
+    line-height: 1.2;
 }
 .read-more {
-    font-size: 16px;
+    font-size: 14px;
     color: #2c2c6c;
     text-decoration: none;
     display: inline-block;
@@ -365,38 +352,39 @@ body {
 
 /* Footer */
 .footer {
-    background-color: #4caf50;
+    background-color: #2faa2f;
     box-sizing: border-box;
     width: 100%;
-    padding: 20px 50px;
+    padding: 8px 20px; 
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     color: white;
     font-family: sans-serif;
+    font-size: 8px; 
 }
 
 /* Kiri footer */
 .footer-left {
     flex: 1;
     text-align: left;
-    padding-right: 40px;
+    padding-right: 20px; 
     border-right: 1px solid white;
     display: flex;
     align-items: center;
 }
 
 .footer-left img {
-    width: 120px;
+    width: 65px; 
     vertical-align: middle;
-    margin-left: 30%;
+    margin-left: 5.5rem; 
 }
 
 /* Tengah footer */
 .footer-center {
     flex: 2;
     text-align: center;
-    padding: 0 40px;
+    padding: 0 20px; 
     border-right: 1px solid white;
     display: flex;
     flex-direction: column;
@@ -404,8 +392,8 @@ body {
 }
 
 .footer-center p {
-    margin: 3px 0;
-    font-size: 18px;
+    margin: 2px 0;
+    font-size: 12px; 
     font-weight: bold;
 }
 
@@ -413,7 +401,7 @@ body {
 .footer-right {
     flex: 1;
     text-align: center;
-    padding-left: 40px;
+    padding-left: 20px; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -421,33 +409,109 @@ body {
 }
 
 .footer-about {
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 16px; 
+    margin-bottom: 5px;
 }
 
 .social-icons a {
-    width: 50px;
-    height: 50px;
-    font-size: 24px;
-    line-height: 50px;
+    width: 35px; 
+    height: 35px; 
+    font-size: 18px; 
+    line-height: 35px; 
     margin-right: 5px;
     display: inline-block;
     color: #ffffff;
-    margin-bottom: 10px;
-}
-
-.social-icons a:hover {
-    background-color: rgba(175, 185, 180, 0.7);
-    border-radius: 50%;
+    margin-bottom: 5px;
 }
 
 .footer-right p {
-    margin: 3px 0;
-    line-height: 1.5;
+    margin: 2px 0;
+    line-height: 1.2;
     color: white;
 }
 
 .footer-center p.footer-copyright {
     font-weight: normal;
-    font-size: 14px;
+    font-size: 12px; 
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+
+    .section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .pusat-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pusat-card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .containernews {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sectionnews {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-left, .footer-center, .footer-right {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header span {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .header a {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .hero h2 {
+        font-size: 1.8rem;
+    }
+
+    .video-container iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    .news-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .news-item img {
+        margin-bottom: 10px;
+    }
 }

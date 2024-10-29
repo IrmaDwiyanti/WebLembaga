@@ -23,8 +23,8 @@ Route::get('/Lembaga', function () {
     return view('Lembaga');
 });
 
-Route::get('/index', function () {
-    return view('index');
+Route::get('/visimisi', function () {
+    return view('visimisi');
 });
 
 Route::get('/sejarah', function () {
@@ -35,10 +35,26 @@ Route::get('/struktur', function () {
     return view('struktur');
 });
 
+Route::get('/struktur2', function () {
+    return view('struktur2');
+});
+
 Route::get('/berita', function () {
     return view('berita');
 });
 
-Route::get('/profile', function () {
-    return view('profile');
+Route::get('/beritahome', function () {
+    return view('beritahome');
+});
+
+Route::get('/puslitpen', function () {
+    return view('puslitpen');
+});
+
+Route::get('/pkm', function () {
+    return view('pkm');
+});
+
+Route::get('/pgsa', function () {
+    return view('pgsa');
 });

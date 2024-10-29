@@ -1,0 +1,230 @@
+body {
+    font-family: "Poppin", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d9ead9;
+    color: #ffffff;
+    letter-spacing: 0.03em;
+    line-height: 2.5;
+    padding-top: 60px;
+}
+
+/* Header */
+.header {
+    background-color: #2faa2f;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.header span {
+    margin-left: 40px;
+    font-size: 13px;
+}
+.header a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    position: relative;
+    margin-right: 40px;
+    font-size: 13px;
+}
+
+.header .dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.header .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4caf50;
+    min-width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.header .dropdown-content a:hover {
+    background-color: #3e8e41;
+}
+
+.header .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*berita*/
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.judul {
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+}
+.news-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.news-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    width: calc(25% - 20px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.news-item img {
+    width: 100%;
+    height: auto;
+}
+.news-content {
+    padding: 15px;
+}
+.news-title {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #000;
+    line-height: 2;
+}
+.news-meta {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 10px;
+}
+.pagination {
+    text-align: center;
+    margin: 20px 0;
+    justify-content: center;
+}
+.pagination a {
+    color: #000;
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    margin: 0 2px;
+    border-radius: 3px;
+}
+.pagination a.active {
+    background-color: #000;
+    color: #fff;
+}
+.scroll-button {
+    display: inline-block;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    margin-left: 5px;
+    border-radius: 3px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.scroll-button:hover {
+    background-color: #444;
+}
+
+/* Footer */
+.footer {
+    background-color: #2faa2f;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px 20px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    color: white;
+    font-family: sans-serif;
+    font-size: 8px; 
+}
+
+/* Kiri footer */
+.footer-left {
+    flex: 1;
+    text-align: left;
+    padding-right: 20px; 
+    border-right: 1px solid white;
+    display: flex;
+    align-items: center;
+}
+
+.footer-left img {
+    width: 65px; 
+    vertical-align: middle;
+    margin-left: 5.5rem; 
+}
+
+/* Tengah footer */
+.footer-center {
+    flex: 2;
+    text-align: center;
+    padding: 0 20px; 
+    border-right: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-center p {
+    margin: 2px 0;
+    font-size: 12px; 
+    font-weight: bold;
+}
+
+/* Kanan footer */
+.footer-right {
+    flex: 1;
+    text-align: center;
+    padding-left: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-about {
+    font-size: 16px; 
+    margin-bottom: 5px;
+}
+
+.social-icons a {
+    width: 35px; 
+    height: 35px; 
+    font-size: 18px; 
+    line-height: 35px; 
+    margin-right: 5px;
+    display: inline-block;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.footer-right p {
+    margin: 2px 0;
+    line-height: 1.2;
+    color: white;
+}
+
+.footer-center p.footer-copyright {
+    font-weight: normal;
+    font-size: 12px; 
+}
