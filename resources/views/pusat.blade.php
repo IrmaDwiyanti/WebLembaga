@@ -8,33 +8,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Elsie&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet"/>
+    
     <link rel="stylesheet" href="css/pusat.css">
     
 </head>
 <body>
     <!--header-->
     <div class="header">
-        <span>Pusat - Pusat</span>
-        <div>
-         <a href="home">HOME</a>
-         <a href="pusat">PUSAT</a>
-         <a href="ukm">UKM</a>
-         <div class="dropdown">
-          <a href="#">FAKULTAS &amp; PRODI</a>
-          <div class="dropdown-content">
-            <a href="https://fah.uinsgd.ac.id/">Adab dan Humaniora</a>
-            <a href="https://fdk.uinsgd.ac.id/">Dakwah dan Komunikasi</a>
-            <a href="https://febi.uinsgd.ac.id/">Ekonomi dan Bisnis Islam</a>
-            <a href="https://fisip.uinsgd.ac.id/">Ilmu Sosial dan Ilmu Politik</a>
-            <a href="https://psi.uinsgd.ac.id/">Psikologi</a>
-            <a href="https://fst.uinsgd.ac.id/">Sains dan Teknologi</a>
-            <a href="https://fsh.uinsgd.ac.id/">Syariah dan Hukum</a>
-            <a href="https://ftk.uinsgd.ac.id/">Tarbiyah dan Keguruan</a>
-            <a href="https://fu.uinsgd.ac.id/">Ushuluddin</a>
-          </div>
-         </div>
+        <span>PUSAT - PUSAT</span>
+        <div class="menu-bars" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
         </div>
-       </div>
+        <div class="nav-links">
+            <a href="home">HOME</a>
+            <a href="pusat">PUSAT</a>
+            <a href="ukm">UKM</a>
+            <div class="dropdown">
+                <a href="#" onclick="toggleDropdown(event)">FAKULTAS & PRODI</a>
+                <div class="dropdown-content">
+                    <a href="https://fah.uinsgd.ac.id/">Adab dan Humaniora</a>
+                    <a href="https://fdk.uinsgd.ac.id/">Dakwah dan Komunikasi</a>
+                    <a href="https://febi.uinsgd.ac.id/">Ekonomi dan Bisnis Islam</a>
+                    <a href="https://fisip.uinsgd.ac.id/">Ilmu Sosial dan Ilmu Politik</a>
+                    <a href="https://psi.uinsgd.ac.id/">Psikologi</a>
+                    <a href="https://fst.uinsgd.ac.id/">Sains dan Teknologi</a>
+                    <a href="https://fsh.uinsgd.ac.id/">Syariah dan Hukum</a>
+                    <a href="https://ftk.uinsgd.ac.id/">Tarbiyah dan Keguruan</a>
+                    <a href="https://fu.uinsgd.ac.id/">Ushuluddin</a>
+                </div>
+            </div>
+        </div>
+    </div>
     
        <!--content-->
     <div class="content">
@@ -180,12 +188,7 @@
         </div>
     </footer>
 
-    <script>
-        document.getElementById("navbar-toggle").onclick = function() {
-            var menu = document.getElementById("navbar-menu");
-            menu.classList.toggle("active");
-        };
-    </script>
+    <script src="{{ asset('js/script.js') }}"></script>
     
 </body>
 </html>

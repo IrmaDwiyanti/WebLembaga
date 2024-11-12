@@ -1,5 +1,5 @@
 body {
-    font-family: "Poppin", sans-serif;
+    font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
     background-color: #d9ead9;
@@ -23,6 +23,29 @@ body {
     right: 0;
     z-index: 1000;
 }
+
+.header {
+    background-color: #2faa2f;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.menu-bars {
+    display: none;
+    cursor: pointer;
+    padding: 2px;
+    font-size: 24px;
+    color: white;
+}
+
 .header span {
     margin-left: 40px;
     font-size: 13px;
@@ -34,6 +57,13 @@ body {
     position: relative;
     margin-right: 40px;
     font-size: 13px;
+    transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+.header a:hover {
+    color: #3e8e41; 
+    text-decoration: none; 
+    transform: translateX(-50%);
 }
 
 .header .dropdown {
